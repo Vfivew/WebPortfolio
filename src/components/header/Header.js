@@ -13,7 +13,7 @@ const Header = () => {
 				<div className="header__text">
 					<p> I'm passionate about learning and creating. If you have any questions or opportunities related to frontend development or anything else, please feel free to reach out. I'm ready to collaborate!</p>
 				</div>
-				<a href="#!" className="btn">
+				<a href="../../../public/Resume.pdf" download className="btn">
 					Download CV
 				</a>
 			</div>
