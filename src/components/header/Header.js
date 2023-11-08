@@ -8,10 +8,10 @@ const Header = () => {
 					<strong>
 						Hello, my name is <em>Vlad</em>
 					</strong>
-					<br />a frontend developer
+					<br />I'm a frontend developer
 				</h1>
 				<div className="header__text">
-					<p> I'm passionate about learning and creating. If you have any questions or opportunities related to frontend development or anything else, please feel free to reach out. I'm ready to collaborate!</p>
+					<p> I am eager to learn and grow in the field of frontend development and beyond. If you have any questions or opportunities related to these areas, please feel free to reach out. I'm ready to collaborate and open to new possibilities!</p>
 				</div>
 				<a href="/Resume.pdf" download className="btn">
 					Download CV
