@@ -54,7 +54,7 @@ const Navbar = () => {
 									isActive ? activeLink : normalLink
 								}
 							>
-								Сontacts
+								Contacts
 							</NavLink>
 						</li>
 					</ul>
