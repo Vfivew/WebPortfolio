@@ -53,7 +53,7 @@ const projects = [
 		imgBig: project05Big,
 		skills: 'React, TypeScript, Firebase, React Router, SCSS, RTK Query, Redux-toolkit',
 		gitHubLink:"https://github.com/Vfivew/Store",
-		link: 'https://store-kos7dr48m-vfivew.vercel.app',
+		link: 'https://store-git-test-vfivew.vercel.app',
 	}
 ];
 
