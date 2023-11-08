@@ -11,7 +11,7 @@ const Navbar = () => {
 			<div className="container">
 				<div className="nav-row">
 					<NavLink to="/" className="logo">
-						<strong>Front-end</strong> developer
+						<span>Vlad Manukian</span> | <strong>Front-end</strong> developer
 					</NavLink>
 
 					<BtnDarkMode />
@@ -24,7 +24,7 @@ const Navbar = () => {
 									isActive ? activeLink : normalLink
 								}
 							>
-								Main
+								Home
 							</NavLink>
 						</li>
 						<li className="nav-list__item">

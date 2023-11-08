@@ -230,13 +230,14 @@ body {
 
 .content-skill__list {
   display: flex; 
-  list-style-type: none; 
   justify-content: center;
   padding: 0; 
 }
 
 .content-skill__list li {
-  margin-right: 10px; 
+  list-style-type: circle;
+  color:black;
+  margin: 0 1em;
 }
 
 
