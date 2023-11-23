@@ -65,7 +65,7 @@ const projects = [
 		skills: 'React, TypeScript, Firebase, React Router, SCSS, RTK Query, Redux-toolkit',
 		gitHubLink:"https://github.com/Vfivew/Store",
 		link: 'https://store-git-test-vfivew.vercel.app',
-	},
+	}
 ];
 
 export {projects}
