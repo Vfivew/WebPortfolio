@@ -13,15 +13,26 @@ import project04Big from "./../img/projects/makeup.png";
 import project05 from "./../img/projects/store.png";
 import project05Big from "./../img/projects/store.png";
 
+import project06 from "./../img/projects/blog.png";
+import project06Big from "./../img/projects/blog.png";
+
 
 const projects = [
 	{
-		title: 'App for stocks',
-		skills: 'React, TypeScript, Firebase, Tailwind, Redux-toolkit, RTK Query, React Router',
-		img: project01,
-		imgBig: project01Big,
-		gitHubLink: 'https://github.com/Vfivew/Finance',
-		link: 'https://finance-vfivew.vercel.app',
+		title: 'Landing',
+		img: project03,
+		imgBig: project03Big,
+		skills: 'JS, SCSS, Webpack',
+		gitHubLink: 'https://github.com/Vfivew/Restaurant1',
+		link: 'https://vfivew.github.io/Restaurant1/',
+	},
+	{
+		title: 'Blog "FullStack"',
+		img: project06,
+		imgBig: project06Big,
+		skills: 'React, JS, Node.js, MongoDB, React Router, SCSS, Redux',
+		gitHubLink:"https://github.com/Vfivew/Blog-frontend",
+		link: 'https://blog-frontend-vfivew.vercel.app',
 	},
 	{
 		title: 'Store',
@@ -32,12 +43,12 @@ const projects = [
 		link: 'https://seed-shop.vercel.app',
 	},
 	{
-		title: 'Landing',
-		img: project03,
-		imgBig: project03Big,
-		skills: 'JS, SCSS, Webpack',
-		gitHubLink: 'https://github.com/Vfivew/Restaurant1',
-		link: 'https://vfivew.github.io/Restaurant1/',
+		title: 'App for stocks',
+		skills: 'React, TypeScript, Firebase, Tailwind, Redux-toolkit, RTK Query, React Router',
+		img: project01,
+		imgBig: project01Big,
+		gitHubLink: 'https://github.com/Vfivew/Finance',
+		link: 'https://finance-vfivew.vercel.app',
 	},
 	{
 		title: 'Make-up service website',
@@ -48,13 +59,13 @@ const projects = [
 		link: 'https://portfolio-vfivew.vercel.app',
 	},
 	{
-		title: 'Store "Under development"',
+		title: 'Store',
 		img: project05,
 		imgBig: project05Big,
 		skills: 'React, TypeScript, Firebase, React Router, SCSS, RTK Query, Redux-toolkit',
 		gitHubLink:"https://github.com/Vfivew/Store",
 		link: 'https://store-kos7dr48m-vfivew.vercel.app',
-	}
+	},
 ];
 
 export {projects}
