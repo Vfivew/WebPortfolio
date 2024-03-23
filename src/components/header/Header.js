@@ -8,12 +8,12 @@ const Header = () => {
 					<strong>
 						Hello, my name is <em>Vlad</em>
 					</strong>
-					<br />I'm a frontend developer
+					<br />I'm a full stack developer
 				</h1>
 				<div className="header__text">
-					<p> I am eager to learn and grow in the field of frontend development and beyond. If you have any questions or opportunities related to these areas, please feel free to reach out. I'm ready to collaborate and open to new possibilities!</p>
+					<p> I am eager to learn and grow in the field of full stack development and beyond. If you have any questions or opportunities related to these areas, please feel free to reach out. I'm ready to collaborate and open to new possibilities!</p>
 				</div>
-				<a href="/Resume.pdf" download className="btn">
+				<a href="/VladManukian.pdf" download className="btn">
 					Download CV
 				</a>
 			</div>
