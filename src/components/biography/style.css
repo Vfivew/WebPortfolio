@@ -47,16 +47,17 @@
 
 .list li{
     margin: 0.5em;
-    list-style-type: disc; 
+    list-style-type: disc;
 }
 
 span {
-    font-weight: bold; 
+    font-weight: bold;
     margin: 1em 0;
-    -webkit-text-stroke: 1px var(--purple); 
+    -webkit-text-stroke: 1px var(--purple);
 }
 
 
 .sectioon-text{
     text-indent: 3ch;
+    margin-bottom: 10px;
 }
