@@ -60,7 +60,7 @@ const projects = [
     imgBig: project04Big,
     skills: "React, React Router, CSS",
     gitHubLink: "https://github.com/Vfivew/Portfolio",
-    link: "https://portfolio-vfivew.vercel.app",
+    link: "https://portfolio-sigma-bice-94.vercel.app/",
   },
   {
     title: "Store",
