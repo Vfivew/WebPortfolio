@@ -15,7 +15,22 @@ const AboutMe = () => {
           TypeScript, React, Redux Toolkit, Knex, Objection, Fastify,
           PostgreSQL, Stripe, Socket.IO, AWS, and others. Additionally, we've
           honed our skills in crafting clean, elegant, and easily understandable
-          code.
+          code&nbsp;
+          <a
+            href="https://study.binary-studio.com/certificate/351a809a-8f03-4ec1-aa78-a4c8b8d23898"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="reference">(Certificate</span>
+          </a>
+          <span> / </span>
+          <a
+            href="https://study.binary-studio.com/public/351a809a-8f03-4ec1-aa78-a4c8b8d23898"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="reference">Public Page).</span>
+          </a>
         </p>
       </section>
       <section className="sectionAbout">
@@ -58,8 +73,9 @@ const AboutMe = () => {
               <a
                 href="https://www.udemy.com/certificate/UC-96b96126-8bfc-4a27-bceb-25ce8d09dfac/"
                 target="_blank"
+                rel="noreferrer"
               >
-                <span className="reference">Certificate</span>
+                <span className="reference">(Certificate).</span>
               </a>
             </li>
           </ul>
