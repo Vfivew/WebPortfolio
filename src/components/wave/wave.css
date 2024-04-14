@@ -1,46 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
 
-
-.audiobox{
-  height:100%;
+.audiobox {
+  height: 100%;
   width: 100%;
   background-color: rgb(0, 0, 0);
   border-radius: 5px;
-  top:50%;
-  left:50%;
-  position:absolute;
+  top: 50%;
+  left: 50%;
+  position: absolute;
   overflow: hidden;
   transform: translate(-50%, -50%);
 }
 
-.wave{
-    top: 50%;
-    left:-15%;
-    width: 130%;
+.wave {
+  top: 50%;
+  left: -15%;
+  width: 130%;
 
-    background-color: var(--purple);
-    opacity: 0.6;
-    position: absolute;
-    border-radius: 40%; 
-  }
-
-.wave.one{
-    animation: wave 15s linear -1s infinite;
-}
-.wave.two{
-    animation: wave 18s linear -1s infinite;
-}
-.wave.three{
-    animation: wave 21s linear -1s infinite;
+  background-color: var(--purple);
+  opacity: 0.6;
+  position: absolute;
+  border-radius: 40%;
 }
 
+.wave.one {
+  animation: wave 15s linear -1s infinite;
+}
+.wave.two {
+  animation: wave 18s linear -1s infinite;
+}
+.wave.three {
+  animation: wave 21s linear -1s infinite;
+}
 
-@keyframes wave{
-  0%{
+@keyframes wave {
+  0% {
     transform: rotate(0deg);
   }
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }
-
