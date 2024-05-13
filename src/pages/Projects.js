@@ -5,10 +5,10 @@ const Projects = () => {
   return (
     <main className="section">
       <div className="container">
-        <h2 className="title-1">Team Project</h2>
+        <h2 className="title-1">Projects</h2>
         <ul className="projects">
           {projects.map((project, index) =>
-            project.isTeamProject ? (
+            project.isProject ? (
               <Project
                 key={index}
                 title={project.title}
@@ -18,10 +18,10 @@ const Projects = () => {
             ) : null
           )}
         </ul>
-        <h2 className="title-1">Pet Projects</h2>
+        <h2 className="title-1">Learning Projects and Others</h2>
         <ul className="projects">
           {projects.map((project, index) =>
-            !project.isTeamProject ? (
+            !project.isProject ? (
               <Project
                 key={index}
                 title={project.title}

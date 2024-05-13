@@ -12,6 +12,7 @@ import project06 from "./../img/projects/blog.jpg";
 
 import teamProject from "./../img/projects/teamproject.jpg";
 
+import car from "./../img/projects/car.jpg";
 
 const projects = [
   {
@@ -73,8 +74,18 @@ const projects = [
     gitHubLink:
       "https://github.com/BinaryStudioAcademy/bsa-winter-2023-2024-trackmates",
     link: "https://trackmates-frontend-xi.vercel.app/",
-    isTeamProject: true,
+    isProject: true,
+  },
+  {
+    title: "Website",
+    img: car,
+    imgBig: car,
+    skills:
+      "TypeScript, React, Redux Toolkit, Node Js, Knex, Objection, Fastify, Zod, PostgreSQL",
+    gitHubLink: "https://github.com/Vfivew/car",
+    link: "https://car-frontend-blond.vercel.app/",
+    isProject: true,
   },
 ];
 
-export {projects}
+export { projects };
