@@ -23,6 +23,7 @@ const Project = () => {
             <p>Skills: {project.skills}</p>
           </div>
           {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
+          {project.gitHubLinkBackend && <BtnGitHub link={project.gitHubLinkBackend} />}
           {project.link && (
             <BtnWeb
               link={project.link}

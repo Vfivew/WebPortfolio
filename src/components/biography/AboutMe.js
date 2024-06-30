@@ -7,6 +7,14 @@ const AboutMe = () => {
   return (
     <section className="about-me">
       <section className="sectionAbout">
+        <h3 className="title"> May 20, 2024 - to present</h3>
+        <p className="sectioon-text">
+        I joined an internship at Zenbit as a Full Stack Developer.
+        In a team of 4 developers and a PM, we are developing a website for clothing rental.
+        Our Tech Stack: React, RTK Query, TypeScript, MUI, Nest JS, TypeORM, AWS, MySQL, Stripe.
+        </p>
+      </section>
+      <section className="sectionAbout">
         <h3 className="title"> January 10, 2024 - March 22, 2024</h3>
         <p className="sectioon-text">
           Second stage of the Binary Studio Academy. Over the course of 6 weeks,

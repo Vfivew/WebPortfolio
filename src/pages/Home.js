@@ -8,7 +8,7 @@ const Home = () => {
           <section className="container">
             <ul className="content-list">
               <li className="content-list__item">
-                <h2 className="title-2">Hard Skills</h2>
+                <h2 className="title-4">Hard Skills</h2>
                 <h3 className="title-3">Frontend</h3>
                 <ul className="content-skill__list">
                   <li>HTML</li>
@@ -16,12 +16,13 @@ const Home = () => {
                   <li>SASS </li>
                   <li>JavaScript</li>
                   <li>TypeScript </li>
-                  <li>ReactJS </li>
-                  <li>Redux </li>
+                  <li>React</li>
+                  <li>Redux</li>
                 </ul>
                 <h3 className="title-3">Backend</h3>
                 <ul className="content-skill__list">
                   <li>Node JS</li>
+                  <li>Nest JS</li>
                   <li>Express</li>
                   <li>SQL </li>
                   <li>PostgresSQL</li>
@@ -41,11 +42,13 @@ const Home = () => {
                   <li>NoSQL</li>
                   <li>MongoDB</li>
                   <li>FireBase</li>
+                  <li>MUI</li>
+                  <li>Fastify</li>
                 </ul>
               </li>
             </ul>
             <ul className="content-list">
-              <h2 className="title-2">Soft Skills</h2>
+              <h2 className="title-4">Soft Skills</h2>
               <ul className="content-soft__skill__list">
                 <li>Easily find common ground with people </li>
                 <li>
