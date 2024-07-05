@@ -14,6 +14,8 @@ import teamProject from "./../img/projects/teamproject.jpg";
 
 import car from "./../img/projects/car.jpg";
 
+import blackCircle from "./../img/projects/blackCircle.jpg";
+
 const projects = [
   {
     title: "Landing",
@@ -70,7 +72,7 @@ const projects = [
     img: teamProject,
     imgBig: teamProject,
     skills:
-      "TypeScript, React, Redux Toolkit, Node Js, Knex, Objection, Fastify, Zod, PostgreSQL",
+      "TypeScript, React, Redux Toolkit, Node Js, Knex, Objection, Fastify, Zod, PostgreSQL, AWS",
     gitHubLink:
       "https://github.com/BinaryStudioAcademy/bsa-winter-2023-2024-trackmates",
     link: "https://trackmates-frontend-xi.vercel.app/",
@@ -84,6 +86,17 @@ const projects = [
       "TypeScript, React, Redux Toolkit, Node Js, Knex, Objection, Fastify, Zod, PostgreSQL",
     gitHubLink: "https://github.com/Vfivew/car",
     link: "https://car-frontend-blond.vercel.app/",
+    isProject: true,
+  },
+  {
+    title: "Store",
+    img: blackCircle,
+    imgBig: blackCircle,
+    skills:
+      "TypeScript, React, RTK Query, Node Js, Nest Js, TypeORM, AWS, Yup, MySQL",
+    gitHubLink: "https://github.com/ZenBit-Tech/sunny-bunnies_fe",
+    gitHubLinkBackend: "https://github.com/ZenBit-Tech/sunny-bunnies_be",
+    link: "https://sunny-bunnies-fe.onrender.com/home/",
     isProject: true,
   },
 ];
