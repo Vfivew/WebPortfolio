@@ -7,15 +7,26 @@
 	justify-content: center;
 	align-items: center;
 
-	background-color: var(--header-bg);
-	background-image: url('./../../img/header.jpg');
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: center calc(32%);
+	background: linear-gradient(-165deg, var(--purple),#000000,var(--purple));
+	background-size: 300% 300%;
+	animation: gradient 12s ease infinite;
 
 	color: var(--header-text);
 	text-align: center;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 .header__wrapper {
 	padding: 0 15px;
